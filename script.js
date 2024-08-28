@@ -53,15 +53,48 @@ if (operation == "multiply" || operation == "*") {
 if (operation == "divide" || operation == "/") {
     alert(a / b);
 }
-*/
-//var for every data type
-n = 12
 
-console.log("Hello World");
+//Section 11: var for every data type
+n = 12
+john =
+    console.log("Hello World");
 console.log(n);
 if (n < 10) {
     console.log("true");
 } else {
     console.log("false");
 }
-console.log() 
+console.log(john)
+typeof null === "object"
+'this is a string';
+
+const user = {
+    name: "John",
+    age: 30
+};
+
+const users = ['John', 'Jane', 'Mark'];
+
+console.log(users[1]);
+*/
+
+//Section 12: Display a list of food items and prices using HTML & JS
+
+const chicken = {
+    Cost: '$4'
+};
+
+const beef = {
+    Cost: '$3'
+};
+
+const pork = {
+    Cost: '$6'
+};
+
+
+document.write('<li><ul tag="chicken">Chicken ' + getCost.call(chicken) + '</ul><ul tag="beef">Beef ' + getCost.call(beef) + '</ul><ul tag="pork">Pork ' + getCost.call(pork) + '</ul></li>');
+
+function getCost() {
+    return 'is ' + this.Cost;
+}
